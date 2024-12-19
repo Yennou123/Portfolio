@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">ACCEUIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A PROPOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">COMPETENCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div>
+                <img src="images/me.jpg" alt="Me" class="img-fluid">
+            </div>
+            <div>
+                <h1>Bienvenue sur mon Portfolio</h1>
+                <p>Découvrez mon portfolio pour en savoir plus sur moi et mes projets.</p>
+            </div>
+            <div>
+                <a href="#about">En savoir plus</a>
+                <a href="#contact">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <div class="row">
+                <article>
+                    <div>
+                        <h4>Me</h4>
+                        <p>Je suis Kalba Johannes, étudiant en ingénierie informatique.</p>
+                        <p>"En pleine évolution, je code pour apprendre, créer et inspirer."</p>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h4>Parcours scolaire</h4>
+                        <p>Baccalauréat E (Maths & Technique) au Lycée Technique Sangoulé Lamizana</p>
+                        <p>Bac+3 en Ingénierie de l'Informatique à HEM (Hautes Études de Management) en cours.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="row">
+                <article>
+
+                </article>
+                <article>
+
+                </article>
+                <article>
+
+                </article>
+                <article>
+
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="row">
+                <div>
+                    <h4>Langages & Frameworks</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>C & C++</li>
+                        <li>JAVA</li>
+                        <li>PYTHON</li>
+                        <li>BOOTSTRAP</li>
+                        <li>NODE.JS</li>
+                        <li>ANGULAR</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Outils</h4>
+                    <ul>
+                        <li>GiT</li>
+                        <li>WORDPRESS</li>
+                        <li>VISUAL STUDIO CODE</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Résolution de problèmes</li>
+                        <li>créativité</li>
+                        <li> collaboration</li>
+                        <li>Créatif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form action="contact.php" method="POST">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <p>© 2024 Mon Portfolio - Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
